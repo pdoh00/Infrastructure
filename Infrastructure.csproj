@@ -41,7 +41,7 @@
   <ItemGroup>
     <Compile Include="Clock.cs" />
     <Compile Include="DDD\IAggregateRoot.cs" />
-    <Compile Include="IGetCurrentTime.cs" />
+    <Compile Include="IClock.cs" />
     <Compile Include="Messaging\Commands\Command.cs" />
     <Compile Include="Messaging\Commands\MemoryCommandBus.cs" />
     <Compile Include="DDD\AggregateRoot.cs" />
